@@ -1,0 +1,131 @@
+@font-face {
+  font-family: "Noto Sans";
+  src: url("./assets/fonts/Noto_Sans/NotoSans-ExtraLight.ttf") format("truetype");
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: "Noto Sans";
+  src: url("./assets/fonts/Noto_Sans/NotoSans-Light.ttf") format("truetype");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Noto Sans";
+  src: url("./assets/fonts/Noto_Sans/NotoSans-Regular.ttf") format("truetype");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Noto Sans";
+  src: url("./assets/fonts/Noto_Sans/NotoSans-Medium.ttf") format("truetype");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Noto Sans";
+  src: url("./assets/fonts/Noto_Sans/NotoSans-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "Noto Sans";
+  src: url("./assets/fonts/Noto_Sans/NotoSans-Bold.ttf") format("truetype");
+  font-weight: 700;
+}
+
+:root {
+  --btn-grey: #E9EEF4;
+  --txt-blue: #1A2860;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Noto Sans';
+}
+
+body {
+  /* padding: 0 8em; */
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10rem;
+}
+
+header ul{
+  display: flex;
+  gap: 40px;
+  list-style-type: none;
+  font-size: 14px;
+  padding: 2rem 0;
+}
+
+.logo {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  font-size: 30px;
+}
+
+.icon-class {
+  width: 20px;
+  height: 20px;
+}
+
+section {
+  height: 100vh;
+  width: 100%;
+  padding: 0 10rem;
+  background-image: linear-gradient(#ffffff, #F3F1FA);
+  display: flex;
+}
+
+#banner-left {
+  padding-top: 60px;
+}
+
+.sub-btn-rounded {
+  padding: 10px 20px;
+  background-color: var(--btn-grey);
+  width: fit-content;
+  border-radius: 25px;
+  font-weight: 300;
+  font-size: 14px;
+}
+
+.big-title {
+  font-size: 55px;
+  font-weight: 700;
+  color: var(--txt-blue);
+  max-width: 12em;
+  margin: 30px 0;
+}
+
+p {
+  color: #616075;
+  font-size: 15px;
+  max-width: 80%;
+  line-height: 2;
+}
+
+button {
+  background-image: linear-gradient(to right, #D21BC2, #4E76D9);
+  border: none;
+  color: #fff;
+  border-radius: 25px;
+  padding: 15px 40px;
+  letter-spacing: 1px;
+}
+
+#banner-right {
+
+}
+
+#banner-right img {
+  width: auto;
+  height: 40em;
+}
